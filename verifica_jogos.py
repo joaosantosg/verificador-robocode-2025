@@ -1,5 +1,9 @@
 import os
 import re
+import time
+
+start_time = time.time()
+print(f"Iniciando verificação de jogos em {time.strftime('%H:%M:%S')}")
 
 EQUIPES = [
     'SemNomeMasFunciona',
@@ -53,3 +57,5 @@ for equipe, jogos in jogos_por_equipe.items():
         print(f'\nArquivos de jogos para {equipe} ({jogos} jogos):')
         for arq in sorted(arquivos_por_equipe[equipe]):
             print(f'  - {arq}') 
+
+print(f"Tempo de execução: {time.time() - start_time:.2f} segundos")
