@@ -2,7 +2,7 @@
 
 ## Scripts disponíveis
 
-### 1. main.py
+### 1. somatoria.py
 Gera os resultados oficiais das equipes de cada chave (A e B) a partir dos arquivos de partidas CSV.
 
 - Lê todos os arquivos da pasta `partidas/`.
@@ -23,7 +23,7 @@ Verifica se todas as equipes participaram exatamente de 13 partidas e identifica
 ## Como usar
 
 1. Coloque todos os arquivos de partidas na pasta `partidas/`.
-2. Execute `main.py` para gerar os resultados oficiais das chaves.
+2. Execute `somatoria.py` para gerar os resultados oficiais das chaves.
 3. Execute `verifica_jogos.py` para conferir se todas as equipes têm 13 jogos e, se houver erro, ver em quais arquivos está o problema.
 
 ## Dependências
